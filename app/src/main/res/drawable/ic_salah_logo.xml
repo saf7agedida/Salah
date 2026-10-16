@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- خلفية دائرية زمردية داكنة -->
+    <path
+        android:fillColor="#064E3B"
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+    <!-- إطار ذهبي داخلي -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="2.5"
+        android:pathData="M54,54m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0" />
+    <!-- الهلال الذهبي في الأعلى -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M54,18c-3.5,0 -6.3,2.8 -6.3,6.3c0,3.5 2.8,6.3 6.3,6.3c1.2,0 2.3,-0.3 3.2,-0.9c-2.6,-0.7 -4.5,-3 -4.5,-5.8c0,-2.8 1.9,-5.1 4.5,-5.8C56.3,18.3 55.2,18 54,18z" />
+    <!-- قبة المسجد الرئيسية -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M30,62 C30,44 42,33 54,31 C66,33 78,44 78,62 Z" />
+    <!-- المئذنة اليمنى -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M79,34h6v28h-6z" />
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M78,34l4,-7l4,7z" />
+    <!-- قاعدة المسجد والأبواب -->
+    <path
+        android:fillColor="#047857"
+        android:pathData="M24,62h62v18h-62z" />
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M48,80v-10c0,-3.3 2.7,-6 6,-6s6,2.7 6,6v10z" />
+    <!-- خط القاعدة الذهبي -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M20,80h68v4h-68z" />
+</vector>
